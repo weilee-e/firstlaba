@@ -8,6 +8,7 @@ class Calculator
     {
         double num1, num2, num3;
         string operation;
+        double result;
 
         Console.WriteLine("Введите num1");
         num1 = Convert.ToDouble(Console.ReadLine());
@@ -20,7 +21,26 @@ class Calculator
 
 
 
-        //;setsejsetjsejtjstj
+        switch (operation)
+        {
+            case "+":
+                result = num1 + num2;
+                Console.WriteLine($"num1 + num2 = {result}");
+                break;
+            case "-":
+                result = num1 - num2;
+                Console.WriteLine($"num1 - num2 = {result}");
+                break;
+            case "*":
+                result = num1 * num2;
+                Console.WriteLine($"num1 * num2 = {result}");
+                break;
+            case "/":
+                result = num1 / num2;
+                Console.WriteLine($"num1 / num2 = {result}");
+                break;
+        } 
+               
 }
 }
     
