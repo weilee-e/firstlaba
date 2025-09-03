@@ -17,6 +17,10 @@ class Calculator
 
         Console.WriteLine("Введите num2");
         num2 = Convert.ToDouble(Console.ReadLine());
+
+
+
+        //;setsejsetjsejtjstj
 }
 }
     
